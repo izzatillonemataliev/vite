@@ -1,0 +1,154 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(159.02deg, #0F123B 14.25%, #090D2E 56.45%, #020515 86.14%);
+}
+.container h1{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.container .po {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  width: 333px;
+  height: 45px;
+  top: 310.5px;
+  left: 799px;
+  gap: 0px;
+  opacity: 0px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  margin: 50px 0;
+  width: 453px;
+  height: 628px;
+  background-color: linear-gradient(159.02deg, #0F123B 14.25%, #090D2E 56.45%, #020515 86.14%); 
+}
+.passwordDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.password {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.88px;
+  color: #fff;
+}
+.passwordInp {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #bcbec0;
+  border-radius: 20px;
+  padding-left: 23px;
+  background-color: transparent;
+  color: #fff;
+}
+.passwordInp::placeholder {
+  color: #bcbec0;
+}
+.passwordInp:focus {
+  outline: 3px solid rgb(22, 173, 190);
+}
+
+.submitBtn {
+  width: 350px;
+  height: 45px;
+  background: #0075FF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24.18px;
+  color: #fff;
+  border: 0;
+  border-radius: 11px;
+  margin-top: 35px;
+}
+
+.submitBtn:hover {
+  opacity: 0.5;
+}
+.a {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.18px;
+  color: #fff;
+  border: 0;
+  border-radius: 11px;
+  margin-bottom: 59px;
+  text-align: center;
+  padding: 11.5px;
+  background-color: linear-gradient(159.02deg, #0F123B 14.25%, #090D2E 56.45%, #020515 86.14%); 
+  margin-top: 20px;
+}
+.a:hover {
+  opacity: 0.5;
+}
+
+
+
+@media (max-width: 1200px) {
+  .box {
+    width: 600px;
+    padding-left: 80px;
+
+  }
+  .passwordInp, .submitBtn, .a {
+    width: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .box {
+    width: 600px;
+    padding-left: 55px
+
+  }
+  .passwordInp, .submitBtn, .a {
+    width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 580px;
+  }
+  .passwordInp, .submitBtn, .a {
+    width: 450px;
+  }
+}
+
+@media (max-width: 576px) {
+  .box {
+    width: 100%;
+    padding: 50px;
+  }
+  .passwordInp, .submitBtn, .a {
+    width: 100%;
+  }
+}
